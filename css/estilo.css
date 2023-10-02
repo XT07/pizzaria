@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+body {
+    margin: 0;
+}
+.titulo {
+    font-size: 50px;
+    font-family: 'Pixelify Sans', cursive;
+    margin: 0;
+    text-decoration: underline orange;
+}
+.section1 {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0 , 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/fundo1.jpg);
+}
+.section1 ul {
+    list-style: none;
+    padding: 0;
+}
+.section1 ul li {
+    text-align: center;
+}
+.section1 ul li h3 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+.section2 {
+    background: linear-gradient(rgba(0 , 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/pizza1.jpg);
+}
+.section3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pizza3.jpg);
+}
+.sectionTop {
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
+.menu {
+    margin-top: 10px;
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.menu li a {
+    font-size: 30px;
+    font-family: 'Croissant One', cursive;
+}
+.interface {
+    height: 100vh;
+    /* adicionar o comando a baixo para puxar a seção seguinte para o topo */
+    /*scroll-snap-type: y mandatory;*/
+    overflow-y: scroll;
+}
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    color: #fff;
+}
