@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
     margin: 0;
 }
@@ -10,10 +12,61 @@ body {
     margin: 0;
     text-decoration: underline orange;
 }
+.boxSection2 {
+    padding: 10px;
+    border-radius: 15px;
+    border-right: 2px solid white;
+}
+.linhaSection2 {
+    background-color: white;
+    width: 60%;
+    float: left;
+}
+.conteudoSection2 {
+    background-color: black;
+    width: 50%;
+    padding: 40px;
+}
+.boxSection3 {
+    padding: 10px;
+    border-radius: 15px;
+    border-left: 2px solid white;
+}
+.conteudoSection2 h1 {
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: 'Pixelify Sans', cursive;
+}
+.conteudoSection2 p {
+    text-align: left;
+    text-indent: 20px;
+    font-family: 'Gabarito', cursive;
+    font-size: 22px;
+}
+.conteudoSection3 {
+    margin-left: 50%;
+    float: right;
+    background-color: black;
+    width: 50%;
+    padding: 40px;
+}
+.conteudoSection3 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Pixelify Sans', cursive;
+}
+.conteudoSection3 p {
+    text-align: right;
+    text-indent: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+}
 .section1 {
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0 , 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/fundo1.jpg);
+    background: linear-gradient(rgba(0 , 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/fundoSection1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .section1 ul {
     list-style: none;
@@ -28,10 +81,14 @@ body {
     margin: 0;
 }
 .section2 {
-    background: linear-gradient(rgba(0 , 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/pizza1.jpg);
+    background: linear-gradient(rgba(0 , 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/pizzaSection2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .section3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pizza3.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pizzaSection3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .sectionTop {
     text-align: center;
@@ -53,7 +110,7 @@ body {
 .interface {
     height: 100vh;
     /* adicionar o comando a baixo para puxar a seção seguinte para o topo */
-    /*scroll-snap-type: y mandatory;*/
+    scroll-snap-type: y mandatory;
     overflow-y: scroll;
 }
 section {
