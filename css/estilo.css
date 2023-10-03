@@ -51,15 +51,37 @@ body {
     padding: 40px;
 }
 .conteudoSection3 h1 {
+    margin: 0;
     text-align: center;
     font-size: 40px;
     font-family: 'Pixelify Sans', cursive;
+}
+.dvBtn {
+    text-align: center;
+}
+.btn {
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 22.5px;
+    font-family: 'Gabarito', cursive;
+}
+::-webkit-scrollbar {
+    background-color: black;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: white;
 }
 .conteudoSection3 p {
     text-align: right;
     text-indent: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
+}
+.linhaSection3 {
+    background-color: white;
+    width: 60%;
 }
 .section1 {
     align-items: center;
