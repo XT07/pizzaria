@@ -6,6 +6,9 @@
 body {
     margin: 0;
 }
+h1 {
+    font-family: 'Pixelify Sans', cursive;
+}
 .titulo {
     font-size: 50px;
     font-family: 'Pixelify Sans', cursive;
@@ -13,10 +16,13 @@ body {
     border-bottom: 2px solid white;
 }
 .boxSection2 {
-    margin-top: 25%;
     padding: 10px;
     border-radius: 15px;
     border-right: 2px solid white;
+    margin-right: 40px;
+    position: absolute;
+    top: 50%;
+    margin-top: -35%;
 }
 .linhaSection2 {
     background-color: white;
@@ -27,12 +33,7 @@ body {
     background-color: black;
     width: 50%;
     padding: 40px;
-}
-.boxSection3 {
-    margin-top: 25%;
-    padding: 10px;
-    border-radius: 15px;
-    border-left: 2px solid white;
+    position: relative;
 }
 .conteudoSection2 h1 {
     margin-bottom: 0;
@@ -42,9 +43,17 @@ body {
 .conteudoSection2 p {
     text-align: justify;
     text-indent: 20px;
-    font-family: 'Gabarito', cursive;
     font-size: 22px;
     padding-right: 20px;
+}
+.boxSection3 {
+    padding: 10px;
+    border-radius: 15px;
+    border-left: 2px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -35%;
+    margin-right: 40px;
 }
 .conteudoSection3 {
     margin-left: 50%;
@@ -52,6 +61,7 @@ body {
     background-color: black;
     width: 50%;
     padding: 40px;
+    position: relative;
 }
 .conteudoSection3 h1 {
     margin: 0;
@@ -69,15 +79,17 @@ body {
     font-size: 22.5px;
     font-family: 'Gabarito', cursive;
 }
-.boxSection4 {
-    display: flex;
-    height: 100%;
-}
 .coluna {
     width: 50%;
+    margin: 0 auto;
 }
-.conteudoSection4 {
-    width: 100%;
+.contatoFooter {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border: 4px solid white;
+    width: 75%;
+    font-size: 25px;
 }
 ::-webkit-scrollbar {
     background-color: black;
@@ -127,11 +139,8 @@ body {
 }
 .section4 {
     background-color: black;
-}
-.sectionTop {
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    background-color: black;
 }
 .menu {
     margin-top: 10px;
@@ -152,7 +161,7 @@ body {
     overflow-y: scroll;
 }
 section {
-    height: 100vh;
+    height: 100%;
     scroll-snap-align: start;
     position: sticky;
     top: 0;
