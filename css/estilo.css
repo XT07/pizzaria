@@ -202,6 +202,18 @@ nav a {
 }
 .sectionBebidas {
     background-color: black;
+    width: 100%;
+    padding-top: 90px;
+}
+.SectionSalgadas {
+    background-color: black;
+    width: 100%;
+    padding-top: 90px;
+}
+.sectionDoces {
+    background-color: black;
+    width: 100%;
+    padding-top: 90px;
 }
 .menu2 {
     margin-top: 20px;
