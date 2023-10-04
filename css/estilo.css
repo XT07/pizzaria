@@ -8,6 +8,7 @@ body {
 }
 h1 {
     font-family: 'Pixelify Sans', cursive;
+    font-size: 50px;
 }
 .titulo {
     font-size: 50px;
@@ -22,7 +23,7 @@ h1 {
     margin-right: 40px;
     position: absolute;
     top: 50%;
-    margin-top: -35%;
+    margin-top: -25%;
 }
 .linhaSection2 {
     background-color: white;
@@ -52,7 +53,7 @@ h1 {
     border-left: 2px solid white;
     position: absolute;
     top: 50%;
-    margin-top: -35%;
+    margin-top: -25%;
     margin-right: 40px;
 }
 .conteudoSection3 {
@@ -78,6 +79,8 @@ h1 {
     padding: 10px;
     font-size: 22.5px;
     font-family: 'Gabarito', cursive;
+    color: white;
+    text-decoration: none;
 }
 .coluna {
     width: 50%;
@@ -127,6 +130,10 @@ h1 {
     font-family: 'Dancing Script', cursive;
     margin: 0;
 }
+.linkmenu {
+    text-decoration: none;
+    color: white;
+}
 .section2 {
     background: linear-gradient(rgba(0 , 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/pizzaSection2.jpg);
     background-repeat: no-repeat;
@@ -168,4 +175,45 @@ section {
     left: 0;
     display: flex;
     color: #fff;
+}
+/* css cardápio */
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+}
+nav a {
+    font-size: 30px;
+    font-family: 'Croissant One', cursive;
+}
+.sectionMenu nav {
+    border-radius: 15px;
+    border: 2px ridge white;
+    padding: 20px;
+}
+.sectionEntradas {
+    background-color: black;
+    padding-top: 90px;
+    width: 100%;
+}
+.sectionBebidas {
+    background-color: black;
+}
+.menu2 {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 900;
+    position: absolute;
+}
+.colunaCardapio {
+    width: 20%;
+    margin: 0 auto;
+    float: left;
+    text-align: center;
 }
